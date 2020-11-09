@@ -279,7 +279,7 @@ log "Setup VPN"
 
 cat <<EOFSERVER > /etc/gns3/gns3_server.conf
 [Server]
-host = 172.16.253.1
+host = 10.102.0.210/16
 port = 3080 
 images_path = /opt/gns3/images
 projects_path = /opt/gns3/projects
